@@ -1,5 +1,5 @@
 # Machine-Learning-Churn-Project
-Projeto final da disciplina de Machine Learning
+O modelo deve prever se o cliente irá cancelar ou não o serviço.
 
 ## Sobre a base:
 
