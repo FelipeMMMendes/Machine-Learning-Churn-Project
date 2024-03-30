@@ -1,5 +1,5 @@
 # Machine-Learning-Churn-Project
-O modelo deve prever se o cliente irá cancelar ou não o serviço.
+O modelo deve prever se o cliente irá cancelar ou não o serviço, vamos usar 4 modelos e comparar as métricas de cada um para estabelecermos o melhor. Os modelos usados serão **CatBoostClassifier**, **Regressão Logística**, **Redes Neurais** e **Árvore de Decisão**.
 
 ## Sobre a base:
 
@@ -25,4 +25,7 @@ Claro, aqui está o texto com todas as palavras iniciais em negrito usando a sin
 - **FaturaMensal**: Total cobrado ao cliente mensalmente.
 - **FaturaTotal**: Total cobrado ao cliente.
 - **Churn**: Verifica se o cliente cancelou o contrato de serviço e saiu da empresa de telecom. (Sim, Não)
+
+## Sobre o CatBoostClassifier
+O CatBoostClassifier funciona usando técnicas de árvores de decisão. Cat vem de categorical, pois ele consegue trabalhar com dados categóricos (sem precisar de pré-processamento) e Boost vem de Gradient Boosting, num processo em que várias árvores de decisão são construidas em sequência, com cada árvore subsequente sendo melhor que a anterior.
 
