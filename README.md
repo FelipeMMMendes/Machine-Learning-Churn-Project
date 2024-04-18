@@ -1,9 +1,7 @@
 # Machine-Learning-Churn-Project
-O modelo deve prever se o cliente irá cancelar ou não o serviço, vamos usar 4 modelos e comparar as métricas de cada um para estabelecermos o melhor. Os modelos usados serão **CatBoostClassifier**, **Regressão Logística**, **Redes Neurais** e **Árvore de Decisão**.
+O modelo deve prever se o cliente irá cancelar ou não o serviço, vamos usar 5 modelos e comparar as métricas de cada um para estabelecermos o melhor. Os modelos usados serão **CatBoostClassifier**, **Regressão Logística**, **Redes Neurais**, **SVM** e **Árvore de Decisão**.
 
 ## Sobre a base:
-
-Claro, aqui está o texto com todas as palavras iniciais em negrito usando a sintaxe do Markdown:
 
 - **genero**: gênero biológico do cliente (female, male)
 - **idoso**: Verifica se o cliente é considerado idoso. (1 para sim e 0 para não)
@@ -24,6 +22,8 @@ Claro, aqui está o texto com todas as palavras iniciais em negrito usando a sin
 - **MetodoPagamento**: Tipo de pagamento da fatura do cliente (Cheque Eletrônico, Cheque por carta, Transferência Bancária (Automática), Cartão de Crédito (Automático))
 - **FaturaMensal**: Total cobrado ao cliente mensalmente.
 - **FaturaTotal**: Total cobrado ao cliente.
+- **NumTickets**: Número de Protocolos de Serviço (Ticket) abertos pelo cliente.
+- **NumTicketsTecnico**: Número de Protocolos de Serviço de TI (Ticket) abertos pelo cliente.
 - **Churn**: Verifica se o cliente cancelou o contrato de serviço e saiu da empresa de telecom. (Sim, Não)
 
 ## Sobre o CatBoostClassifier
